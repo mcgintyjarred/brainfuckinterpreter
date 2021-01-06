@@ -1,4 +1,20 @@
-%include "constants.inc"
+;******************************************
+; Constants used
+
+SYS_EXIT    equ 1 
+SYS_READ    equ 3
+SYS_WRITE   equ 4
+SYS_OPEN    equ 5
+SYS_CLOSE   equ 6
+
+STDIN       equ 0
+STDOUT      equ 1
+STDERR      equ 2
+
+O_RDONLY    equ 0000q
+S_IRUSR     equ 0400q
+
+;******************************************
 
 section .data
 ; labels used for output
